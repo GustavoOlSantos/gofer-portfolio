@@ -80,7 +80,7 @@ main{
 
   img{
     width: 100%;
-    max-width: 150px;
+    max-width: 160px;
     height: auto;
     object-fit: cover;
     filter: grayscale(100%) invert(100%);
@@ -126,7 +126,7 @@ main{
 
 .hero-image{
   width: 100%;
-  max-width: 380px;
+  max-width: 410px;
   justify-self: end;
   display: flex;
   justify-content: center;
@@ -195,6 +195,8 @@ h2{
 }
 
 .projetos-card{
+  position: relative;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -206,6 +208,22 @@ h2{
   border-radius: 10px;
   background-color: #252525;
   transition: all 0.3s ease-in-out;
+
+  .featured-badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+
+    color: #fff;
+    background-color: #252525;
+    padding: 6px 12px;
+    border-radius: 999px;
+
+    font-size: .8rem;
+    font-weight: 700;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.25);
+  }
 
   &:hover{
     transform: scale(1.01);
@@ -220,6 +238,28 @@ h2{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
+
+  .stack-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin-top: 5px;
+    gap: 20px;
+
+    img{
+      width: 30px;
+      height: auto;
+      object-fit: cover;
+
+      /*filter: grayscale() invert(1);*/
+    }
+
+    img:hover{
+      filter: grayscale(0) invert(0);
+    }
+  }
+
 
   .projetos-card-buttons{
     display: flex;

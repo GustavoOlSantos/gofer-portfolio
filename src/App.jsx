@@ -22,7 +22,7 @@ import GitHub from './assets/icons/github.svg'
 import Bootstrap from './assets/icons/bootstrap.svg'
 import HTML5 from './assets/icons/html-5.svg'
 import CSS3 from './assets/icons/css-3.svg'
-
+import Maven from './assets/icons/maven.svg'
 import ProjectCard from './components/projetos-card/'
 import SkillUp from './assets/projects/SkillUp.webp'
 import ClinicaVet from './assets/projects/ClinicaVetJavaFX.webp'
@@ -85,10 +85,10 @@ function App() {
       <main>
         <section className="hero">
           <div className="hero-content">
-            <h1>Olá, tudo bem? </h1>
+            <h1>Desenvolvedor Full Stack</h1>
             <h1>Meu nome é <span data-value="Gustavo Santos" className="highlight-underline">Gustavo Santos</span>.</h1>
 
-            <p>Desenvolvedor Full Stack com experiência em criar soluções digitais, preocupado com a qualidade, usabilidade e manutenibilidade dos produtos.</p>
+            <p>Especializado em Java, Spring Boot e React, com experiência em desenvolvimento de aplicações corporativas, automação de processos e testes automatizados.</p>
 
             <br></br>
 
@@ -146,37 +146,39 @@ function App() {
           <div className="projects-container">
             <ProjectCard
               title="SkillUp: Plataforma de Cursos"
-              description="Plataforma Web EAD full stack desenvolvida com React e Spring Boot, utilizando autenticação JWT, MySQL e MongoDB."
+              description="Plataforma EAD full stack com autenticação JWT, persistência híbrida,logs estruturados, pipeline e arquitetura escalável."
               image={SkillUp}
               repo="https://github.com/GustavoOlSantos/plataforma-de-cursos"
               acesse="https://project-pritz.vercel.app/"
-
+              destaque={true}
+              stack={[ReactIcon, SpringBoot, Cypress, MySQL, MongoDB, Java, JavaScript]}
             />
 
             <ProjectCard
               title="ClinicaVet: Gestão de Clínica Veterinária"
-              description="Aplicação desktop para registro de clientes e pets de uma clínica veterinária, utilizando JavaFX e MySQL."
+              description="Aplicação desktop para registro de clientes e pets de uma clínica veterinária, utilizando padrão MVC, JavaFX e arquitetura escalável."
               image={ClinicaVet}
               repo="https://github.com/GustavoOlSantos/ClinicaVet"
               acesse=""
-
+              stack={[Java, MySQL, Maven, CSS3]}
             />
 
             <ProjectCard
               title="LLG: Gestão de Vendas de Sacolé"
-              description="Aplicação web para gestão de vendas de sacolé, desenvolvida com PHP e MySQL."
+              description="Aplicação web para gestão de vendas de sacolé, desenvolvida com padrões MVC."
               image={Llg}
               repo="https://github.com/GustavoOlSantos/vendasSacole"
               acesse=""
-
+              stack={[PHP, MySQL, HTML5, CSS3, Jquery, JavaScript]}
             />
 
             <ProjectCard
               title="Socket Criptografados: Compartilhamento de Arquivos"
-              description="Sistema cliente-servidor para transferência segura de arquivos utilizando criptografia híbrida, desenvolvido com Java."
+              description="Sistema cliente-servidor para transferência segura de arquivos utilizando criptografia híbrida, auditoria de envio e Logs de observação."
               image={SocketArquivosCriptografados}
               repo="https://github.com/GustavoOlSantos/SocketArquivosCriptografados"
               acesse=""
+              stack={[Java]}
             />
 
             <ProjectCard
@@ -185,6 +187,7 @@ function App() {
               image={RiexOS}
               repo=""
               acesse=""
+              stack={[PHP, MySQL, HTML5, CSS3, Jquery, JavaScript, Bootstrap]}
             />
 
             <ProjectCard

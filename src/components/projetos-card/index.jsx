@@ -1,16 +1,34 @@
 import react from "react";
 
-function ProjetosCard({ title, description, image, repo, acesse }) {
+function ProjetosCard({ title, description, image, repo, acesse, destaque = false, stack = [] }) {
   const semRepo = !repo;
   const semDeploy = !acesse;
 
   return (
     <div className="projetos-card">
+
+      {destaque && (
+        <span className="featured-badge">
+          ⭐ Projeto Principal
+        </span>
+      )}
+
       <img src={image} alt={title} />
 
       <div>
         <h3>{title}</h3>
         <p>{description}</p>
+      </div>
+
+      <div className="stack-container">
+        {stack.map((icon, index) => (
+          <img
+            key={index}
+            src={icon}
+            alt="Tecnologia"
+            className="stack-image"
+          />
+        ))}
       </div>
 
       
