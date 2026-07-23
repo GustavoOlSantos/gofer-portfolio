@@ -296,8 +296,30 @@ h2{
       background-color: #17437c;
       cursor: pointer;
     }
+    
+    &.disabled{
+      border: 1px solid #333435;
+    }
+
+    &.disabled:hover{
+      background-color: #333435;
+      border: 1px solid #333435;
+      cursor: pointer;
+    }
+
+    &.disabled:active{
+      animation: btn-disabled-shake 0.3s ease-in-out;
+    }
+
+    
   }
 }
+
+@keyframes btn-disabled-shake{
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-4px); }
+      75% { transform: translateX(4px); }
+    }
 
 #Sobre > .sobre-text{
   margin-top: 20px;
@@ -550,6 +572,13 @@ footer p.contact, .spacer{
  
     .btn{
       width: 80%;
+
+      &.disabled::after {
+        content: "🔒";
+        font-size: 0.75em;
+        display: block;
+        margin: 4px 0 0;
+      }
     }
  
     p{

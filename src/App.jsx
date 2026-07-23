@@ -168,7 +168,7 @@ function App() {
               description="Aplicação web para gestão de vendas de sacolé, desenvolvida com padrões MVC."
               image={Llg}
               repo="https://github.com/GustavoOlSantos/vendasSacole"
-              acesse=""
+              acesse="https://vendas-sacole.infinityfreeapp.com"
               stack={[PHP, MySQL, HTML5, CSS3, Jquery, JavaScript]}
             />
 

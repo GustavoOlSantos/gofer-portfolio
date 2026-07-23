@@ -34,7 +34,7 @@ function ProjetosCard({ title, description, image, repo, acesse, destaque = fals
       
     <div className="projetos-card-buttons">
         {semRepo ? (
-          <a className="btn btn-primary" disabled style={{ cursor: "not-allowed" }} title="Sem repositório disponível" >
+          <a className="btn btn-primary disabled" style={{ cursor: "not-allowed" }} title="Sem repositório disponível" >
             Ver repositório
           </a>
         ) : (
@@ -44,7 +44,7 @@ function ProjetosCard({ title, description, image, repo, acesse, destaque = fals
         )}
 
         {semDeploy ? (
-          <a className="btn btn-secondary" disabled style={{ cursor: "not-allowed" }} title="Sem deploy, apenas execução local" >
+          <a className="btn btn-secondary disabled" style={{ cursor: "not-allowed" }} title="Sem deploy, apenas execução local" >
             Acessar Projeto
           </a>
         ) : (
