@@ -151,7 +151,7 @@ function App() {
               repo="https://github.com/GustavoOlSantos/plataforma-de-cursos"
               acesse="https://project-pritz.vercel.app/"
               destaque={true}
-              stack={[ReactIcon, SpringBoot, Cypress, MySQL, MongoDB, Java, JavaScript]}
+              stack={[ReactIcon, SpringBoot, Cypress, MySQL, MongoDB, Docker, JavaScript]}
             />
 
             <ProjectCard
