@@ -1,13 +1,18 @@
 import { useEffect } from 'react'
 
-import Eu from './assets/eu.webp'
 import SkillIcon from './components/skill-icon/'
+import ProjectCard from './components/projetos-card/'
+import ExperienciaHighlight from './components/experiecia-hightlight/'
+
+import { experiencias } from './data/experiencias.js'
+
+import Eu from './assets/eu.webp'
 
 import Serpro from './assets/Serpro.svg'
 import BNDES from './assets/Bndes.webp'
 
 import Java from './assets/icons/java.svg'
-import SpringBoot from './assets/icons/spring.png'
+import SpringBoot from './assets/icons/spring.webp'
 import ReactIcon from './assets/icons/react.svg'
 import JavaScript from './assets/icons/js.svg'
 import TypeScript from './assets/icons/ts.svg'
@@ -23,7 +28,10 @@ import Bootstrap from './assets/icons/bootstrap.svg'
 import HTML5 from './assets/icons/html-5.svg'
 import CSS3 from './assets/icons/css-3.svg'
 import Maven from './assets/icons/maven.svg'
-import ProjectCard from './components/projetos-card/'
+import OracleDB from './assets/icons/oracle-db.svg'
+import SQLServer from './assets/icons/sql-server.svg'
+import Gitlab from './assets/icons/gitlab.svg'
+import Python from './assets/icons/python.svg'
 import SkillUp from './assets/projects/SkillUp.webp'
 import ClinicaVet from './assets/projects/ClinicaVetJavaFX.webp'
 import Llg from './assets/projects/LLG.webp'
@@ -112,24 +120,80 @@ function App() {
 
         <hr></hr>
 
+        <section id="Sobre">
+          <h2 className="highlight-underline">Sobre mim</h2>
+          <p>Um pouco sobre minha trajetória</p>
+
+          <div className="sobre-container">
+            <div  className="sobre-text">
+              <p className="bold">
+                Sou Gustavo Santos, Desenvolvedor Full Stack com foco em back-end Java/Spring, atuando com Spring Boot, Spring Security, 
+                JPA/Hibernate e APIs REST, além de experiência em front-end com React. 
+              </p>
+
+              <p>
+                Atualmente atuo como estagiário em desenvolvimento de sistemas no <b>BNDES</b>, enquanto concluo meu curso de 
+                Ciência da Computação na <b>Universidade Veiga de Almeida (UVA)</b>, utilizando evoluindo, mantendo e desenvolvendo sistemas
+                e portais institucionais utilizando Java, Bancos de Dados SQL, Gerenciadores de conteúdo (CMS) e integrando APIs REST.
+              </p>
+
+               <p>
+                Na minha atuação, também trabalhei com desenvolvimento de sistemas web, APIs REST, testes automatizados em Cypress, 
+                integração de sistemas e microcontroladores, automação de processos e tratamento de vulnerabilidades, aplicando boas práticas de desenvolvimento, arquitetura e qualidade de software.
+              </p>
+            </div>
+
+            <aside className="sobre-aside-highlight">
+                <section>
+                  <h2> {`${Math.floor((new Date() - new Date("2021-08-01")) / (1000 * 60 * 60 * 24 * 365.25))}+`} </h2>
+                  <p>anos de experiência em desenvolvimento e manutenção de soluções web</p>
+                </section>
+
+                <div className="sobre-aside-highlight-grid">
+                  <section className="highlight-grid-col">
+                    <h4>Modelo de atuação</h4>
+                    <p>Remoto, Híbrido e Presencial</p>
+                  </section>
+
+                    <section className="highlight-grid-col">
+                      <h4>Métodos de desenvolvimento</h4>
+                      <p>Scrum e Kanban.</p>
+                    </section>
+                </div>
+
+                <section className="highlight-grid-col">
+                  <h4>Foco de Atuação</h4>
+                  <p>Sistemas Web, CMS,  APIs REST, Testes Automatizados e Integrações entre Sistemas.</p>
+                </section>
+            </aside>
+
+          </div>
+        </section>
+
+        <hr></hr>
+
         <section id="habilidades">
           <h2 className="highlight-underline">Habilidades</h2>
-          <p>Tecnologias que tenho domínio</p>
+          <p>Tecnologias que uso no dia a dia</p>
           
           <div className="skills-container">
               <SkillIcon name="Java" icon={Java} />
               <SkillIcon name="Spring Boot" icon={SpringBoot} />
               <SkillIcon name="React" icon={ReactIcon} />
+              <SkillIcon name="Docker" icon={Docker} />
               <SkillIcon name="JavaScript" icon={JavaScript} />
               <SkillIcon name="TypeScript" icon={TypeScript} />
               <SkillIcon name="Cypress" icon={Cypress} />
-              <SkillIcon name="Jquery" icon={Jquery} />
-              <SkillIcon name="Docker" icon={Docker} />
-              <SkillIcon name="PHP" icon={PHP} />
               <SkillIcon name="MySQL" icon={MySQL} />
+              <SkillIcon name="Oracle" icon={OracleDB} />
+              <SkillIcon name="SQL Server" icon={SQLServer} />
               <SkillIcon name="MongoDB" icon={MongoDB} />
               <SkillIcon name="Git" icon={Git} />
               <SkillIcon name="GitHub" icon={GitHub} />
+              <SkillIcon name="Gitlab" icon={Gitlab} />
+              {/* <SkillIcon name="Jquery" icon={Jquery} /> */}
+              <SkillIcon name="PHP" icon={PHP} />
+              <SkillIcon name="Python" icon={Python} />
               <SkillIcon name="Bootstrap" icon={Bootstrap} />
               <SkillIcon name="HTML5" icon={HTML5} />
               <SkillIcon name="CSS3" icon={CSS3} />
@@ -139,8 +203,24 @@ function App() {
 
         <hr></hr>
 
+        <section id="Experiencia">
+          <h2 className="highlight-underline">Carreira</h2>
+          <p>Uma visão geral das minhas experiências profissionais</p>
+
+          <div className="exp-container">
+              {experiencias.map((exp) => (
+                <ExperienciaHighlight
+                  key={`${exp.empresa}-${exp.cargo}`}
+                  {...exp}
+                />
+              ))}
+          </div>
+        </section>
+
+        <hr></hr>
+
         <section id="Projetos">
-          <h2 className="highlight-underline">Projetos</h2>
+          <h2 className="highlight-underline">Projetos pessoais</h2>
           <p>Alguns projetos que desenvolvi</p>
 
           <div className="projects-container">
@@ -202,28 +282,9 @@ function App() {
 
         <hr></hr>
 
-        <section id="Sobre">
-          <h2 className="highlight-underline">Sobre mim</h2>
-          <p>Um pouco sobre minha trajetória</p>
-
-          <div  className="sobre-text">
-            <p>
-              Meu primeiro contato com programação aconteceu aos 15 anos, durante o curso técnico em Automação Industrial no CEFET/RJ. Desde então, venho construindo minha trajetória em desenvolvimento de software, conciliando formação acadêmica, experiências profissionais e projetos pessoais.
-            </p>
-            <p>
-              Atualmente curso Ciência da Computação e atuo como estagiário em desenvolvimento de sistemas no BNDES, após também ter estagiado no Serpro. Ao longo da minha carreira, desenvolvi aplicações web full stack, APIs REST, testes automatizados, integrações de sistemas e soluções para automação de processos, utilizando principalmente Java, Spring Boot, React, PHP e bancos de dados SQL e NoSQL.
-            </p>
-            <p>
-              Sou apaixonado por tecnologia e aprendizado contínuo. Gosto de entender como as soluções funcionam além da implementação, aplicando boas práticas de arquitetura, qualidade de software e automação para desenvolver aplicações escaláveis e bem estruturadas.
-            </p>
-          </div>
+        <section id="Disclaimer"> 
+          <p> <i className="fas fa-info-circle"></i> Os logotipos de empresas, tecnologias e marcas exibidos neste portfólio pertencem aos seus respectivos proprietários e são utilizados exclusivamente para fins informativos e de identificação da minha experiência profissional e das tecnologias empregadas nos projetos apresentados.</p>
         </section>
-
-        <hr></hr>
-
-          <section id="Disclaimer"> 
-            <p> <i className="fas fa-info-circle"></i> Os logotipos de empresas, tecnologias e demais marcas exibidos neste portfólio pertencem aos seus respectivos proprietários e são utilizados exclusivamente para fins informativos e de identificação da minha experiência profissional e das tecnologias empregadas nos projetos apresentados.</p>
-          </section>
 
         <hr></hr>
 
