@@ -172,6 +172,22 @@ function App() {
 
         <hr></hr>
 
+        <section id="Experiencia">
+          <h2 className="highlight-underline">Carreira</h2>
+          <p>Uma visão geral das minhas experiências profissionais</p>
+
+          <div className="exp-container">
+              {experiencias.map((exp) => (
+                <ExperienciaHighlight
+                  key={`${exp.empresa}-${exp.cargo}`}
+                  {...exp}
+                />
+              ))}
+          </div>
+        </section>
+
+        <hr></hr>
+
         <section id="habilidades">
           <h2 className="highlight-underline">Habilidades</h2>
           <p>Tecnologias que uso no dia a dia</p>
@@ -199,22 +215,6 @@ function App() {
               <SkillIcon name="CSS3" icon={CSS3} />
           </div>
 
-        </section>
-
-        <hr></hr>
-
-        <section id="Experiencia">
-          <h2 className="highlight-underline">Carreira</h2>
-          <p>Uma visão geral das minhas experiências profissionais</p>
-
-          <div className="exp-container">
-              {experiencias.map((exp) => (
-                <ExperienciaHighlight
-                  key={`${exp.empresa}-${exp.cargo}`}
-                  {...exp}
-                />
-              ))}
-          </div>
         </section>
 
         <hr></hr>
@@ -267,6 +267,7 @@ function App() {
               image={RiexOS}
               repo=""
               acesse=""
+              producao={true}
               stack={[PHP, MySQL, HTML5, CSS3, Jquery, JavaScript, Bootstrap]}
             />
 
@@ -274,6 +275,7 @@ function App() {
               title="Riex: Central de combate à incêndios"
               description="Sistema de monitoramento e controle de incêndios, desenvolvido com Arduino, em C++."
               image={Central}
+              producao={true}
               repo=""
               acesse=""
             />

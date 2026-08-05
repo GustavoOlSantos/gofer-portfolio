@@ -1,6 +1,6 @@
 import react from "react";
 
-function ProjetosCard({ title, description, image, repo, acesse, destaque = false, stack = [] }) {
+function ProjetosCard({ title, description, image, repo, acesse, destaque = false, producao = false, stack = [] }) {
   const semRepo = !repo;
   const semDeploy = !acesse;
 
@@ -10,6 +10,12 @@ function ProjetosCard({ title, description, image, repo, acesse, destaque = fals
       {destaque && (
         <span className="featured-badge">
           ⭐ Projeto Principal
+        </span>
+      )}
+
+      {producao && (
+        <span className="featured-badge production">
+          🟢 Em Produção
         </span>
       )}
 
