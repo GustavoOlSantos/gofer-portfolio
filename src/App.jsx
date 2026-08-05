@@ -102,8 +102,8 @@ function App() {
 
             <p>Experiência em empresas como:</p>
             <section className="experience-container">
-              <img src={Serpro} alt="Serpro" />
               <img src={BNDES} alt="BNDES" />
+              <img src={Serpro} alt="Serpro" />
             </section>
             
             <section className="actions-container">
