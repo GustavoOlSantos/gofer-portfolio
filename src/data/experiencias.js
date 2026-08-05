@@ -11,7 +11,7 @@ export const experiencias = [
     atividades: [
       "Substituí um processo legado em Mainframe por uma solução digital integrada ao Portal Institucional, automatizando a publicação de repasses a estados e municípios — eliminando dependências legadas e garantindo conformidade com a Lei nº 9.452/1997.",
       "Reduzi em 50% a indisponibilidade no processamento de +4,8 milhões de documentos, otimizando queries SQL na camada de banco de dados e no processo de indexação SOLR no Portal Institucional.",
-      "Conduzi estudo técnico sobre Dados Estruturados (Schema.org/JSON-LD) para o Blog Institucional, definindo padrões alinhados ao Google para melhorar indexação e elegibilidade a Rich Results.",
+      "Conduzi estudo técnico sobre Dados Estruturados (Schema.org/JSON-LD) para o Blog do Desenvolvimento, definindo padrões alinhados ao Google para melhorar indexação e elegibilidade a Rich Results.",
       "Implementei e validei o serviço de notificações push (GCM) da Agência de Notícias do BNDES, com análises de segurança, auditabilidade e logging — entregando uma solução monitorável e aderente a governança.",
     ]
   },
