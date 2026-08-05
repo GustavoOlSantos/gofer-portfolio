@@ -28,7 +28,7 @@ export const experiencias = [
   },
   {
     empresa: "Riex Equips Contra Incêndio",
-    cargo: "Estagiário de Desenvolvimento",
+    cargo: "Desenvolvimento e Automação interna | Auxiliar de manutenção predial",
     periodo: "Novembro 2021 - Julho 2024",
     icone: Riex,
     atividades: [
