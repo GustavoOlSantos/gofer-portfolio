@@ -133,7 +133,7 @@ function App() {
 
               <p>
                 Atualmente atuo como estagiário em desenvolvimento de sistemas no <b>BNDES</b>, enquanto concluo meu curso de 
-                Ciência da Computação na <b>Universidade Veiga de Almeida (UVA)</b>, utilizando evoluindo, mantendo e desenvolvendo sistemas
+                Ciência da Computação na <b>Universidade Veiga de Almeida (UVA)</b>, utilizando, evoluindo, mantendo e desenvolvendo sistemas
                 e portais institucionais utilizando Java, Bancos de Dados SQL, Gerenciadores de conteúdo (CMS) e integrando APIs REST.
               </p>
 
