@@ -36,6 +36,7 @@ header h2, footer h2{
 .social-icons{
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10px;
   font-size: 35px;
 }
@@ -43,7 +44,54 @@ header h2, footer h2{
 .social-icons a{
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
+
+  &:hover{
+    color: #2a6ec7;
+  }
 }
+
+.lang-toggle{
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 35px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s ease-in-out;
+
+  span{
+    position: absolute;
+    right: -5px;
+    bottom: -3px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    background-color: #17437c;
+    border: 2px solid #121212;
+    border-radius: 20px;
+    padding: 2px 5px;
+    letter-spacing: 0.3px;
+  }
+
+  &:hover{
+    color: #2a6ec7;
+
+    span{
+      background-color: #2a6ec7;
+    }
+  }
+}
+
+
 
 main{
   display: flex;
@@ -628,6 +676,11 @@ footer p.contact, .spacer{
   .social-icons{
     font-size: 28px;
   }
+
+  .lang-toggle{
+    font-size: 28px;
+  }
+ 
  
   main{
     padding: 0 6vw;
@@ -750,6 +803,10 @@ footer p.contact, .spacer{
   .social-icons{
     font-size: 30px;
     gap: 25px;
+  }
+
+  .lang-toggle{
+    font-size: 30px;
   }
  
   main{
