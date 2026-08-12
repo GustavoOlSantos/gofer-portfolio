@@ -41,6 +41,7 @@ export const translations = {
       experiencia: "Experiência em empresas como:",
       actions: {
         curriculo: "Baixar Currículo",
+        curriculo_url: "https://res.cloudinary.com/dvzuxbm5h/image/upload/v1786496228/Gustavo_O_F_dos_Santos_eyy74v.pdf",
         sobre: "Sobre mim",
         projetos: "Projetos"
       }
@@ -213,6 +214,7 @@ export const translations = {
       experiencia: "Experience in companies such as:",
       actions: {
         curriculo: "Download Resume",
+        curriculo_url: "https://res.cloudinary.com/dvzuxbm5h/image/upload/v1786496209/Gustavo_O_F_dos_Santos_-_en_y47g7f.pdf",
         sobre: "About Me",
         projetos: "Projects"
       }

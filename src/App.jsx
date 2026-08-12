@@ -87,7 +87,7 @@ function App() {
             </section>
             
             <section className="actions-container">
-              <a href="https://res.cloudinary.com/dvzuxbm5h/image/upload/v1784268918/Gustavo_O_F_dos_Santos_eyy74v.pdf" className="primary" target="_blank" rel="noopener noreferrer">{t.hero.actions.curriculo}</a>
+              <a href={t.hero.actions.curriculo_url} className="primary" target="_blank" rel="noopener noreferrer">{t.hero.actions.curriculo}</a>
               <a href="#Sobre" className="secondary">{t.hero.actions.sobre}</a>
               <a href="#Projetos" className="secondary">{t.hero.actions.projetos}</a>
             </section>
