@@ -259,6 +259,8 @@ h2{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  cursor: default !important;
   
   gap: 10px;
   width: 450px;
@@ -413,6 +415,11 @@ h2{
 
 footer p.contact, .spacer{
   font-size: 18px;
+  color: #ffffff65;
+}
+
+footer p.contact a{
+  text-decoration: underline;
   color: #ffffff65;
 }
 

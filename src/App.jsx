@@ -59,7 +59,7 @@ function App() {
               <i className="fab fa-github"></i>
             </a>
 
-            <a href="https://www.linkedin.com/in/gustavo-of-santos/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/gustavoolsantos/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
 
@@ -212,7 +212,7 @@ function App() {
         <h2> Gustavo <span className="highlight">Santos</span></h2>
 
         <span className="contact-info">
-          <p className='contact'> <i className="fas fa-envelope"></i> santos.gustavo.of@gmail.com</p> 
+          <p className='contact'> <i className="fas fa-envelope"></i> <a href="mailto:gustavoolsantos.tech@gmail.com">gustavoolsantos.tech@gmail.com</a></p> 
           <p className='spacer'>  |  </p>
           <p className='contact'><i className="fas fa-phone"></i>+55 (21) 99235-1782</p>
         </span>
@@ -221,7 +221,7 @@ function App() {
             <a href="https://github.com/GustavoOlSantos" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/gustavo-of-santos/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/gustavoolsantos/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
         </div>
