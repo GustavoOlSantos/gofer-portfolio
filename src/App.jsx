@@ -88,7 +88,7 @@ function App() {
             
             <section className="actions-container">
               <a href={t.hero.actions.curriculo_url} className="primary" target="_blank" rel="noopener noreferrer">{t.hero.actions.curriculo}</a>
-              <a href="#Sobre" className="secondary">{t.hero.actions.sobre}</a>
+              <a href="#habilidades" className="secondary">{t.hero.actions.habilidades}</a>
               <a href="#Projetos" className="secondary">{t.hero.actions.projetos}</a>
             </section>
           </div>

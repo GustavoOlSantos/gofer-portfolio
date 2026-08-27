@@ -34,7 +34,7 @@ export const translations = {
   pt: {
     hero: {
       titulo: {
-        cargo: "Desenvolvedor Full Stack",
+        cargo: "Desenvolvedor Full Stack Jr",
         apresentacao: "Meu nome é"
       },
       subtitulo: "Especializado em Java, Spring Boot e React, com experiência em desenvolvimento de aplicações corporativas, automação de processos e testes automatizados.",
@@ -42,7 +42,7 @@ export const translations = {
       actions: {
         curriculo: "Baixar Currículo",
         curriculo_url: "https://res.cloudinary.com/dvzuxbm5h/image/upload/v1786496228/Gustavo_O_F_dos_Santos_eyy74v.pdf",
-        sobre: "Sobre mim",
+        habilidades: "Habilidades",
         projetos: "Projetos"
       }
     },
@@ -134,7 +134,7 @@ export const translations = {
         },
         {
             titulo: "ClinicaVet: Gestão de Clínica Veterinária",
-            descricao: "Aplicação desktop para registro de clientes e pets de uma clínica veterinária, utilizando padrão MVC, JavaFX e arquitetura escalável.",
+            descricao: "Aplicação desktop para registro de clientes e pets de uma clínica veterinária, utilizando padrão MVC, JavaFX e arquitetura Database Agnostic.",
             image: ClinicaVet,
             repo: "https://github.com/GustavoOlSantos/ClinicaVet",
             acesse: "",
@@ -144,7 +144,7 @@ export const translations = {
         },
         {
             titulo: "LLG_Sacoles: Gestão de Vendas de Sacolé",
-            descricao: "Aplicação web para gestão de vendas de sacolé, desenvolvida com padrões MVC.",
+            descricao: "Sistema web de gerenciamento de vendas e estoque de sacolés, desenvolvida com padrões MVC e clean code.",
             image: Llg,
             repo: "https://github.com/GustavoOlSantos/LLG_Sacoles",
             acesse: "https://vendas-sacole.infinityfreeapp.com",
@@ -215,7 +215,7 @@ export const translations = {
       actions: {
         curriculo: "Download Resume",
         curriculo_url: "https://res.cloudinary.com/dvzuxbm5h/image/upload/v1786496209/Gustavo_O_F_dos_Santos_-_en_y47g7f.pdf",
-        sobre: "About Me",
+        habilidades: "Skills",
         projetos: "Projects"
       }
     },
@@ -307,7 +307,7 @@ export const translations = {
         },
         {
             titulo: "ClinicaVet: Veterinary Clinic Management",
-            descricao: "Desktop application for registering veterinary clinic clients and pets, built with the MVC pattern, JavaFX and scalable architecture.",
+            descricao: "Desktop application for registering veterinary clinic clients and pets, built with the MVC pattern, JavaFX and Database Agnostic architecture.",
             image: ClinicaVet,
             repo: "https://github.com/GustavoOlSantos/ClinicaVet",
             acesse: "",
