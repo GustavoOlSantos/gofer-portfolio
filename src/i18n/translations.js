@@ -126,8 +126,8 @@ export const translations = {
             titulo: "SkillUp: Plataforma de Cursos",
             descricao: "Plataforma EAD full stack com autenticação JWT, persistência híbrida,logs estruturados, pipeline e arquitetura escalável.",
             image: SkillUp,
-            repo: "https://github.com/GustavoOlSantos/plataforma-de-cursos",
-            acesse: "https://project-pritz.vercel.app/",
+            repo: "https://github.com/GustavoOlSantos/skill-up",
+            acesse: "https://skillup-courses.vercel.app/",
             destaque: true,
             producao: false,
             stack: [ReactIcon, SpringBoot, Cypress, MySQL, MongoDB, Docker, JavaScript]
@@ -140,17 +140,17 @@ export const translations = {
             acesse: "",
             destaque: false,
             producao: false,
-            stack: [Java, MySQL, Maven, CSS3] 
+            stack: [Java, MySQL, Maven, CSS3, Docker] 
         },
         {
-            titulo: "LLG: Gestão de Vendas de Sacolé",
+            titulo: "LLG_Sacoles: Gestão de Vendas de Sacolé",
             descricao: "Aplicação web para gestão de vendas de sacolé, desenvolvida com padrões MVC.",
             image: Llg,
-            repo: "https://github.com/GustavoOlSantos/vendasSacole",
+            repo: "https://github.com/GustavoOlSantos/LLG_Sacoles",
             acesse: "https://vendas-sacole.infinityfreeapp.com",
             destaque: false,
             producao: false,
-            stack: [PHP, MySQL, HTML5, CSS3, Jquery, JavaScript]
+            stack: [PHP, MySQL, HTML5, CSS3, Jquery, JavaScript, Bootstrap, Docker]
         },
         {
             titulo: "Socket Criptografados: Compartilhamento de Arquivos",
@@ -299,8 +299,8 @@ export const translations = {
             titulo: "SkillUp: Course Platform",
             descricao: "Full stack e-learning platform with JWT authentication, hybrid persistence, structured logging, CI/CD pipeline and scalable architecture.",
             image: SkillUp,
-            repo: "https://github.com/GustavoOlSantos/plataforma-de-cursos",
-            acesse: "https://project-pritz.vercel.app/",
+            repo: "https://github.com/GustavoOlSantos/skill-up",
+            acesse: "https://skillup-courses.vercel.app/",
             destaque: true,
             producao: false,
             stack: [ReactIcon, SpringBoot, Cypress, MySQL, MongoDB, Docker, JavaScript]
@@ -313,17 +313,17 @@ export const translations = {
             acesse: "",
             destaque: false,
             producao: false,
-            stack: [Java, MySQL, Maven, CSS3] 
+            stack: [Java, MySQL, Maven, CSS3, Docker] 
         },
         {
-            titulo: "LLG: Popsicle Sales Management",
+            titulo: "LLG_Sacoles: Popsicle Sales Management",
             descricao: "Web application for managing popsicle sales, developed with the MVC pattern.",
             image: Llg,
-            repo: "https://github.com/GustavoOlSantos/vendasSacole",
+            repo: "https://github.com/GustavoOlSantos/LLG_Sacoles",
             acesse: "https://vendas-sacole.infinityfreeapp.com",
             destaque: false,
             producao: false,
-            stack: [PHP, MySQL, HTML5, CSS3, Jquery, JavaScript]
+            stack: [PHP, MySQL, HTML5, CSS3, Jquery, JavaScript, Bootstrap, Docker]
         },
         {
             titulo: "Encrypted Sockets: File Sharing",

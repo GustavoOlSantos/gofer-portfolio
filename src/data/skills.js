@@ -8,9 +8,11 @@ import Jquery from '../assets/icons/jquery.svg'
 import Docker from '../assets/icons/docker.svg'
 import PHP from '../assets/icons/php.svg'
 import MySQL from '../assets/icons/mysql.svg'
+import PostgreeSQL from '../assets/icons/postgrees.svg'
 import MongoDB from '../assets/icons/mongo.svg'
 import Git from '../assets/icons/git.svg'
-import GitHub from '../assets/icons/github.svg'
+import GitHubActions from '../assets/icons/github-actions.svg'
+import Wordpress from '../assets/icons/wordpress.svg'
 import Bootstrap from '../assets/icons/bootstrap.svg'
 import HTML5 from '../assets/icons/html-5.svg'
 import CSS3 from '../assets/icons/css-3.svg'
@@ -19,23 +21,27 @@ import OracleDB from '../assets/icons/oracle-db.svg'
 import SQLServer from '../assets/icons/sql-server.svg'
 import Gitlab from '../assets/icons/gitlab.svg'
 import Python from '../assets/icons/python.svg'
+import RabbitMQ from '../assets/icons/rabbitmq.svg'
 
 export const skills = [
     { name: "Java", icon: Java },
     { name: "Spring Boot", icon: SpringBoot },
     { name: "React", icon: ReactIcon },
     { name: "Docker", icon: Docker },
+    //{ name: "RabbitMQ", icon: RabbitMQ },
     { name: "JavaScript", icon: JavaScript },
     { name: "TypeScript", icon: TypeScript },
     { name: "Cypress", icon: Cypress },
     { name: "MySQL", icon: MySQL },
+    //{ name: "Postgree", icon: PostgreeSQL },
     { name: "Oracle", icon: OracleDB },
     { name: "SQL Server", icon: SQLServer },
     { name: "MongoDB", icon: MongoDB },
     { name: "Git", icon: Git },
-    { name: "GitHub", icon: GitHub },
-    { name: "Gitlab", icon: Gitlab },
+    { name: "Github Actions", icon: GitHubActions },
+    { name: "Gitlab CI/CD", icon: Gitlab },
     { name: "PHP", icon: PHP },
+    { name: "WordPress", icon: Wordpress },
     { name: "Python", icon: Python },
     { name: "Bootstrap", icon: Bootstrap },
     { name: "HTML5", icon: HTML5 },
