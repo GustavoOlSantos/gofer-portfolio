@@ -215,6 +215,11 @@ h2{
   margin: 20px 0;
 }
 
+.logo-cypress-fundo {
+  background-color: #ffffff;
+  border-radius: 50%;
+  clip-path: circle(48% at 50% 50%);
+}
 
 .skill-icon{
   display: flex;
@@ -302,8 +307,6 @@ h2{
     height: auto;
     max-height: 240px;
     object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
   }
 
   .stack-container{

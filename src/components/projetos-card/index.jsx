@@ -27,14 +27,19 @@ function ProjetosCard({ titulo, descricao, image, repo, acesse, destaque = false
       </div>
 
       <div className="stack-container">
-        {stack.map((icon, index) => (
-          <img
-            key={index}
-            src={icon}
-            alt="Tecnologia"
-            className="stack-image"
-          />
-        ))}
+        {stack.map((icon, index) => {
+
+          const isCypress = icon.toLowerCase().includes("cypress");
+
+          return (
+            <img
+              key={index}
+              src={icon}
+              alt="Tecnologia"
+              className={`stack-image ${isCypress ? "logo-cypress-fundo" : ""}`}
+            />
+          );
+        })}
       </div>
 
       
