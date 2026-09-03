@@ -901,6 +901,14 @@ footer p.contact a{
     p{
       font-size: 14px;
     }
+
+     .stack-container{
+      gap: 15px;
+
+      img{
+        width: 25px;
+      }
+     }
   }
  
   #Sobre > .sobre-text p,

@@ -6,23 +6,17 @@ import Java from '../assets/icons/java.svg'
 import SpringBoot from '../assets/icons/spring.webp'
 import ReactIcon from '../assets/icons/react.svg'
 import JavaScript from '../assets/icons/js.svg'
-import TypeScript from '../assets/icons/ts.svg'
 import Cypress from '../assets/icons/cypress.webp'
 import Jquery from '../assets/icons/jquery.svg'
 import Docker from '../assets/icons/docker.svg'
 import PHP from '../assets/icons/php.svg'
 import MySQL from '../assets/icons/mysql.svg'
 import MongoDB from '../assets/icons/mongo.svg'
-import Git from '../assets/icons/git.svg'
-import GitHub from '../assets/icons/github.svg'
 import Bootstrap from '../assets/icons/bootstrap.svg'
 import HTML5 from '../assets/icons/html-5.svg'
 import CSS3 from '../assets/icons/css-3.svg'
 import Maven from '../assets/icons/maven.svg'
-import OracleDB from '../assets/icons/oracle-db.svg'
-import SQLServer from '../assets/icons/sql-server.svg'
-import Gitlab from '../assets/icons/gitlab.svg'
-import Python from '../assets/icons/python.svg'
+import GitHubActions from '../assets/icons/github-actions.svg'
 import SkillUp from '../assets/projects/SkillUp.webp'
 import ClinicaVet from '../assets/projects/ClinicaVetJavaFX.webp'
 import Llg from '../assets/projects/LLG.webp'
@@ -130,7 +124,7 @@ export const translations = {
             acesse: "https://skillup-courses.vercel.app/",
             destaque: true,
             producao: false,
-            stack: [ReactIcon, SpringBoot, Cypress, MySQL, MongoDB, Docker, JavaScript]
+            stack: [ReactIcon, SpringBoot, JavaScript, MySQL, MongoDB, Cypress, Docker, GitHubActions]
         },
         {
             titulo: "ClinicaVet: Gestão de Clínica Veterinária",
@@ -140,7 +134,7 @@ export const translations = {
             acesse: "",
             destaque: false,
             producao: false,
-            stack: [Java, MySQL, Maven, CSS3, Docker] 
+            stack: [Java, MySQL, Maven, CSS3, Docker, GitHubActions] 
         },
         {
             titulo: "LLG_Sacoles: Gestão de Vendas de Sacolé",
@@ -150,7 +144,7 @@ export const translations = {
             acesse: "https://vendas-sacole.infinityfreeapp.com",
             destaque: false,
             producao: false,
-            stack: [PHP, MySQL, HTML5, CSS3, Jquery, JavaScript, Bootstrap, Docker]
+            stack: [PHP, MySQL, CSS3, , Bootstrap, JavaScript, Cypress, Docker, GitHubActions]
         },
         {
             titulo: "Socket Criptografados: Compartilhamento de Arquivos",
@@ -303,7 +297,7 @@ export const translations = {
             acesse: "https://skillup-courses.vercel.app/",
             destaque: true,
             producao: false,
-            stack: [ReactIcon, SpringBoot, Cypress, MySQL, MongoDB, Docker, JavaScript]
+            stack: [ReactIcon, SpringBoot, JavaScript, MySQL, MongoDB, Cypress, Docker, GitHubActions]
         },
         {
             titulo: "ClinicaVet: Veterinary Clinic Management",
@@ -313,7 +307,7 @@ export const translations = {
             acesse: "",
             destaque: false,
             producao: false,
-            stack: [Java, MySQL, Maven, CSS3, Docker] 
+            stack: [Java, MySQL, Maven, CSS3, Docker, GitHubActions] 
         },
         {
             titulo: "LLG_Sacoles: Popsicle Sales Management",
@@ -323,7 +317,7 @@ export const translations = {
             acesse: "https://vendas-sacole.infinityfreeapp.com",
             destaque: false,
             producao: false,
-            stack: [PHP, MySQL, HTML5, CSS3, Jquery, JavaScript, Bootstrap, Docker]
+            stack: [PHP, MySQL, CSS3, , Bootstrap, JavaScript, Cypress, Docker, GitHubActions]
         },
         {
             titulo: "Encrypted Sockets: File Sharing",
