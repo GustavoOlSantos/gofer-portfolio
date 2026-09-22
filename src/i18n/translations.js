@@ -28,7 +28,7 @@ export const translations = {
   pt: {
     hero: {
       titulo: {
-        cargo: "Desenvolvedor Full Stack Jr",
+        cargo: "Desenvolvedor Full Stack Júnior",
         apresentacao: "Meu nome é"
       },
       subtitulo: "Especializado em Java, Spring Boot e React, com experiência em desenvolvimento de aplicações corporativas, automação de processos e testes automatizados.",
@@ -201,7 +201,7 @@ export const translations = {
  en: {
     hero: {
       titulo: {
-        cargo: "Full Stack Developer",
+        cargo: "Junior Full Stack Developer",
         apresentacao: "My name is"
       },
       subtitulo: "Specialized in Java, Spring Boot and React, with experience in developing corporate applications, process automation and automated testing.",
