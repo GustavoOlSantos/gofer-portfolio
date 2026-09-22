@@ -195,6 +195,14 @@ export const translations = {
 
     disclaimer: {
       mensagem: "Os logotipos de empresas, tecnologias e marcas exibidos neste portfólio pertencem aos seus respectivos proprietários e são utilizados exclusivamente para fins informativos e de identificação da minha experiência profissional e das tecnologias empregadas nos projetos apresentados.",
+    }, 
+
+    seo: {
+      title: 'Gustavo Santos | Desenvolvedor Full Stack Júnior',
+      description: 'Portfólio de Gustavo Santos, Desenvolvedor Full Stack Júnior especializado em Java, Spring Boot e React. Experiência com BNDES, SERPRO, APIs REST, Cypress e bancos de dados.',
+      ogTitle: 'Gustavo Santos | Desenvolvedor Full Stack Júnior',
+      ogDescription: 'Portfólio de Gustavo Santos, Desenvolvedor Full Stack Júnior especializado em Java, Spring Boot e React.',
+      locale: 'pt_BR'
     }
   },
     
@@ -368,6 +376,14 @@ export const translations = {
 
     disclaimer: {
       mensagem: "The logos of companies, technologies and brands displayed in this portfolio belong to their respective owners and are used solely for informational purposes and to identify my professional experience and the technologies employed in the projects presented.",
-    }
+    },
+
+    seo: {
+      title: 'Gustavo Santos | Junior Full Stack Developer',
+      description: 'Portfolio of Gustavo Santos, Junior Full Stack Developer specialized in Java, Spring Boot and React. Experience with BNDES, SERPRO, REST APIs, Cypress and databases.',
+      ogTitle: 'Gustavo Santos | Junior Full Stack Developer',
+      ogDescription: 'Portfolio of Gustavo Santos, Junior Full Stack Developer specialized in Java, Spring Boot and React.',
+      locale: 'en_US'
+    },
   },
 };
