@@ -94,7 +94,7 @@ function App() {
           </div>
 
           <div className="hero-image">
-            <img src={Eu} alt="Hero" fetchpriority="high" />
+            <img src={Eu} alt="Gustavo Santos, desenvolvedor Full Stack" fetchpriority="high" />
           </div>
         </section>
 
