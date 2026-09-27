@@ -121,7 +121,7 @@ export const translations = {
             descricao: "Plataforma EAD full stack com autenticação JWT, persistência híbrida,logs estruturados, pipeline e arquitetura escalável.",
             image: SkillUp,
             repo: "https://github.com/GustavoOlSantos/skill-up",
-            acesse: "https://skillup-courses.vercel.app/",
+            acesse: "https://skillup.gustavoolsantos.dev.br/",
             destaque: true,
             producao: false,
             stack: [ReactIcon, SpringBoot, JavaScript, MySQL, MongoDB, Cypress, Docker, GitHubActions]
@@ -302,7 +302,7 @@ export const translations = {
             descricao: "Full stack e-learning platform with JWT authentication, hybrid persistence, structured logging, CI/CD pipeline and scalable architecture.",
             image: SkillUp,
             repo: "https://github.com/GustavoOlSantos/skill-up",
-            acesse: "https://skillup-courses.vercel.app/",
+            acesse: "https://skillup.gustavoolsantos.dev.br/",
             destaque: true,
             producao: false,
             stack: [ReactIcon, SpringBoot, JavaScript, MySQL, MongoDB, Cypress, Docker, GitHubActions]
