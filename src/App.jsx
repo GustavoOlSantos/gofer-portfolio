@@ -212,7 +212,7 @@ function App() {
         <h2> Gustavo <span className="highlight">Santos</span></h2>
 
         <span className="contact-info">
-          <p className='contact'> <i className="fas fa-envelope"></i> <a href="mailto:gustavoolsantos.tech@gmail.com">gustavoolsantos.tech@gmail.com</a></p> 
+          <p className='contact'> <i className="fas fa-envelope"></i> <a href="mailto:contato@gustavoolsantos.dev.br">contato@gustavoolsantos.dev.br</a></p> 
           <p className='spacer'>  |  </p>
           <p className='contact'><i className="fas fa-phone"></i>+55 (21) 99235-1782</p>
         </span>
