@@ -55,11 +55,15 @@ function App() {
         <h2> Gustavo <span className="highlight">Santos</span></h2>
 
         <div className="social-icons">
-            <a href="https://github.com/GustavoOlSantos" target="_blank" rel="noopener noreferrer">
+            <a href="#contato" className="contact-icon" aria-label="Contact Information" title="E-mail">
+              <i className="fas fa-envelope"></i>
+            </a>
+
+            <a href="https://github.com/GustavoOlSantos" target="_blank" rel="noopener noreferrer" title="Github">
               <i className="fab fa-github"></i>
             </a>
 
-            <a href="https://www.linkedin.com/in/gustavoolsantos/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/gustavoolsantos/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
               <i className="fab fa-linkedin"></i>
             </a>
 
@@ -211,7 +215,7 @@ function App() {
       <footer>
         <h2> Gustavo <span className="highlight">Santos</span></h2>
 
-        <span className="contact-info">
+        <span className="contact-info" id="contato">
           <p className='contact'> <i className="fas fa-envelope"></i> <a href="mailto:contato@gustavoolsantos.dev.br">contato@gustavoolsantos.dev.br</a></p> 
           <p className='spacer'>  |  </p>
           <p className='contact'><i className="fas fa-phone"></i>+55 (21) 99235-1782</p>
