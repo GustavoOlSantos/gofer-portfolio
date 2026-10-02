@@ -141,7 +141,7 @@ export const translations = {
             descricao: "Sistema web de gerenciamento de vendas e estoque de sacolés, desenvolvida com padrões MVC e clean code.",
             image: Llg,
             repo: "https://github.com/GustavoOlSantos/LLG_Sacoles",
-            acesse: "https://vendas-sacole.infinityfreeapp.com",
+            acesse: "https://llgsacoles.gustavoolsantos.dev.br",
             destaque: false,
             producao: false,
             stack: [PHP, MySQL, CSS3, , Bootstrap, JavaScript, Cypress, Docker, GitHubActions]
@@ -322,7 +322,7 @@ export const translations = {
             descricao: "Web application for managing popsicle sales, developed with the MVC pattern.",
             image: Llg,
             repo: "https://github.com/GustavoOlSantos/LLG_Sacoles",
-            acesse: "https://vendas-sacole.infinityfreeapp.com",
+            acesse: "https://llgsacoles.gustavoolsantos.dev.br",
             destaque: false,
             producao: false,
             stack: [PHP, MySQL, CSS3, , Bootstrap, JavaScript, Cypress, Docker, GitHubActions]
