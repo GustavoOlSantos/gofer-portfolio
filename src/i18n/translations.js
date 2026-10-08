@@ -75,10 +75,10 @@ export const translations = {
             periodo: "Agosto 2025 - Presente",
             icone: BNDES,
             atividades: [
-              "Substituí um processo legado em Mainframe por uma solução digital integrada ao Portal Institucional, automatizando a publicação de repasses a estados e municípios — eliminando dependências legadas e garantindo conformidade com a Lei nº 9.452/1997.",
+              "Substituí um processo legado em Mainframe por uma solução digital integrada ao Portal Institucional, automatizando a publicação de repasses a estados e municípios, eliminando dependências legadas e garantindo conformidade com a Lei nº 9.452/1997.",
               "Reduzi em 50% a indisponibilidade no processamento de +4,8 milhões de documentos, otimizando queries SQL na camada de banco de dados e no processo de indexação SOLR no Portal Institucional.",
               "Conduzi estudo técnico sobre Dados Estruturados (Schema.org/JSON-LD) para o Blog do Desenvolvimento, definindo padrões alinhados ao Google para melhorar indexação e elegibilidade a Rich Results.",
-              "Implementei e validei o serviço de notificações push (GCM) da Agência de Notícias do BNDES, com análises de segurança, auditabilidade e logging — entregando uma solução monitorável e aderente a governança.",
+              "Implementei e validei o serviço de notificações push (GCM) da Agência de Notícias do BNDES, com análises de segurança, auditabilidade e logging, entregando uma solução monitorável e aderente a governança.",
             ]
           },
           {
@@ -87,7 +87,7 @@ export const translations = {
             periodo: "Setembro 2024 - Julho 2025",
             icone: Serpro,
             atividades: [
-              "Desenvolvi uma suíte completa de testes automatizados com Cypress para um sistema JSF, cobrindo todos os casos de uso — sucesso, falha e todo o ciclo de vida da entidade principal.",
+              "Desenvolvi uma suíte completa de testes automatizados com Cypress para um sistema JSF, cobrindo todos os casos de uso, sucesso, falha e todo o ciclo de vida da entidade principal.",
               "Integrei os testes à pipeline do GitLab, garantindo execução automática a cada commit e notificação imediata ao dev quando uma alteração quebrasse alguma funcionalidade existente.",
               "Compartilhei conhecimento técnico com estagiários de outras equipes com a mesma missão de testes automatizados, sugerindo implementações e integrações.",
             ]
@@ -256,10 +256,10 @@ export const translations = {
             periodo: "August 2025 - Present",
             icone: BNDES,
             atividades: [
-              "Replaced a legacy Mainframe process with a digital solution integrated into the Institutional Portal, automating the publication of transfers to states and municipalities — eliminating legacy dependencies and ensuring compliance with Law No. 9.452/1997.",
+              "Replaced a legacy Mainframe process with a digital solution integrated into the Institutional Portal, automating the publication of transfers to states and municipalities, eliminating legacy dependencies and ensuring compliance with Law No. 9.452/1997.",
               "Reduced downtime by 50% when processing over 4.8 million documents, by optimizing SQL queries at the database layer and the SOLR indexing process on the Institutional Portal.",
               "Conducted a technical study on Structured Data (Schema.org/JSON-LD) for the Development Blog, defining standards aligned with Google guidelines to improve indexing and eligibility for Rich Results.",
-              "Implemented and validated the push notification service (GCM) for the BNDES News Agency, with security, auditability and logging analysis — delivering a monitorable solution compliant with governance requirements.",
+              "Implemented and validated the push notification service (GCM) for the BNDES News Agency, with security, auditability and logging analysis, delivering a monitorable solution compliant with governance requirements.",
             ]
           },
           {
@@ -268,7 +268,7 @@ export const translations = {
             periodo: "September 2024 - July 2025",
             icone: Serpro,
             atividades: [
-                "Developed a complete automated test suite with Cypress for a JSF system, covering all use cases — success, failure, and the full lifecycle of the main entity.",
+                "Developed a complete automated test suite with Cypress for a JSF system, covering all use cases: success, failure, and the full lifecycle of the main entity.",
                 "Integrated the tests into the GitLab pipeline, ensuring automatic execution on every commit and immediate developer notification when a change broke existing functionality.",
                 "Shared technical knowledge with interns from other teams working on the same automated testing mission, suggesting implementations and integrations.",
             ]
