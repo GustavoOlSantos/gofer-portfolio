@@ -1,6 +1,6 @@
 import react from "react";
 
-function ProjetosCard({ titulo, descricao, image, repo, acesse, destaque = false, producao = false, stack = [], actions, highlights }) {
+function ProjetosCard({ titulo, descricao, image, repo, acesse, destaque = false, desenvolvimento = false, producao = false, stack = [], actions, highlights }) {
   const semRepo = !repo;
   const semDeploy = !acesse;
 
@@ -10,6 +10,18 @@ function ProjetosCard({ titulo, descricao, image, repo, acesse, destaque = false
       {destaque && (
         <span className="featured-badge">
           {highlights.principal}
+        </span>
+      )}
+
+      {desenvolvimento && (
+        <span className="featured-badge development">
+          {highlights.desenvolvimento}
+        </span>
+      )}
+
+      {producao && (
+        <span className="featured-badge production">
+          {highlights.producao}
         </span>
       )}
 

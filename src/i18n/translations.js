@@ -4,6 +4,7 @@ import Riex from '../assets/icons/riexIcon.webp';
 
 import Java from '../assets/icons/java.svg'
 import SpringBoot from '../assets/icons/spring.webp'
+import RabbitMQ from '../assets/icons/rabbitmq.svg'
 import ReactIcon from '../assets/icons/react.svg'
 import JavaScript from '../assets/icons/js.svg'
 import Cypress from '../assets/icons/cypress.webp'
@@ -18,6 +19,7 @@ import CSS3 from '../assets/icons/css-3.svg'
 import Maven from '../assets/icons/maven.svg'
 import GitHubActions from '../assets/icons/github-actions.svg'
 import SkillUp from '../assets/projects/SkillUp.webp'
+import Sentry from '../assets/projects/Sentry.png'
 import ClinicaVet from '../assets/projects/ClinicaVetJavaFX.webp'
 import Llg from '../assets/projects/LLG.webp'
 import SocketArquivosCriptografados from '../assets/projects/SocketCriptografado.webp'
@@ -123,8 +125,20 @@ export const translations = {
             repo: "https://github.com/GustavoOlSantos/skill-up",
             acesse: "https://skillup.gustavoolsantos.dev.br/",
             destaque: true,
+            desenvolvimento: false,
             producao: false,
             stack: [ReactIcon, SpringBoot, JavaScript, MySQL, MongoDB, Cypress, Docker, GitHubActions]
+        },
+        {
+            titulo: "Sentry: Análise de Vulnerabilidades e Compliance (TCC)",
+            descricao: "Aplicação web Fullstack para análise de vulnerabilidades em uma infraestrutura. Permite a gestão de achados e correções, utilizando Nmap e processamento assíncrono.",
+            image: Sentry,
+            repo: "https://github.com/GustavoOlSantos/sentry",
+            acesse: "",
+            destaque: false,
+            producao: false,
+            desenvolvimento: true,
+            stack: [ReactIcon, SpringBoot, RabbitMQ, JavaScript, Docker]
         },
         {
             titulo: "ClinicaVet: Gestão de Clínica Veterinária",
@@ -133,6 +147,7 @@ export const translations = {
             repo: "https://github.com/GustavoOlSantos/ClinicaVet",
             acesse: "",
             destaque: false,
+            desenvolvimento: false,
             producao: false,
             stack: [Java, MySQL, Maven, CSS3, Docker, GitHubActions] 
         },
@@ -146,16 +161,16 @@ export const translations = {
             producao: false,
             stack: [PHP, MySQL, CSS3, , Bootstrap, JavaScript, Cypress, Docker, GitHubActions]
         },
-        {
-            titulo: "Socket Criptografados: Compartilhamento de Arquivos",
-            descricao: "Sistema cliente-servidor para transferência segura de arquivos utilizando criptografia híbrida, auditoria de envio e Logs de observação.",
-            image: SocketArquivosCriptografados,
-            repo: "https://github.com/GustavoOlSantos/SocketArquivosCriptografados",
-            acesse: "",
-            destaque: false,
-            producao: false,
-            stack: [Java]
-        },
+        // {
+        //     titulo: "Socket Criptografados: Compartilhamento de Arquivos",
+        //     descricao: "Sistema cliente-servidor para transferência segura de arquivos utilizando criptografia híbrida, auditoria de envio e Logs de observação.",
+        //     image: SocketArquivosCriptografados,
+        //     repo: "https://github.com/GustavoOlSantos/SocketArquivosCriptografados",
+        //     acesse: "",
+        //     destaque: false,
+        //     producao: false,
+        //     stack: [Java]
+        // },
         {
             titulo: "Riex: Controle de Ordens de Serviço",
             descricao: "Sistema web local para gestão e controle de ordens de serviço, integrado à microcontroladores, desenvolvido com PHP, MySQL e Arduinos.",
@@ -180,6 +195,7 @@ export const translations = {
 
       highlights: {
         principal: "⭐ Projeto Principal",
+        desenvolvimento: "⚒️ Desenvolvimento",
         producao: "🟢 Em Produção"
       },
 
@@ -308,6 +324,17 @@ export const translations = {
             stack: [ReactIcon, SpringBoot, JavaScript, MySQL, MongoDB, Cypress, Docker, GitHubActions]
         },
         {
+            titulo: "Sentry: Vulnerability Analysis and Compliance (Bachelor's Thesis)",
+            descricao: "Fullstack web application for infrastructure vulnerability analysis. Enables management of findings and remediation, utilizing Nmap and asynchronous processing.",
+            image: Sentry,
+            repo: "https://github.com/GustavoOlSantos/sentry",
+            acesse: "",
+            destaque: false,
+            producao: false,
+            desenvolvimento: true,
+            stack: [ReactIcon, SpringBoot, RabbitMQ, JavaScript, Docker]
+        },
+        {
             titulo: "ClinicaVet: Veterinary Clinic Management",
             descricao: "Desktop application for registering veterinary clinic clients and pets, built with the MVC pattern, JavaFX and Database Agnostic architecture.",
             image: ClinicaVet,
@@ -327,16 +354,16 @@ export const translations = {
             producao: false,
             stack: [PHP, MySQL, CSS3, , Bootstrap, JavaScript, Cypress, Docker, GitHubActions]
         },
-        {
-            titulo: "Encrypted Sockets: File Sharing",
-            descricao: "Client-server system for secure file transfer using hybrid encryption, transfer auditing and observability logs.",
-            image: SocketArquivosCriptografados,
-            repo: "https://github.com/GustavoOlSantos/SocketArquivosCriptografados",
-            acesse: "",
-            destaque: false,
-            producao: false,
-            stack: [Java]
-        },
+        // {
+        //     titulo: "Encrypted Sockets: File Sharing",
+        //     descricao: "Client-server system for secure file transfer using hybrid encryption, transfer auditing and observability logs.",
+        //     image: SocketArquivosCriptografados,
+        //     repo: "https://github.com/GustavoOlSantos/SocketArquivosCriptografados",
+        //     acesse: "",
+        //     destaque: false,
+        //     producao: false,
+        //     stack: [Java]
+        // },
         {
             titulo: "Riex: Service Order Control",
             descricao: "Local web system for managing and controlling service orders, integrated with microcontrollers, built with PHP, MySQL and Arduino.",
@@ -361,6 +388,7 @@ export const translations = {
 
       highlights: {
         principal: "⭐ Featured Project",
+        desenvolvimento: "⚒️ In Development",
         producao: "🟢 In Production"
       },
 
