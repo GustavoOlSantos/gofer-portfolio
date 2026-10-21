@@ -98,7 +98,7 @@ function App() {
           </div>
 
           <div className="hero-image">
-            <img src={Eu} alt="Gustavo Santos - Desenvolvedor Full Stack Júnior" fetchPriority="high" decoding="async" width="410" height="557.88"/>
+            <img src={Eu} alt="Gustavo Santos - Desenvolvedor Full Stack Júnior em Java, Spring Boot e React" fetchPriority="high" decoding="async" width="410" height="558"/>
           </div>
         </section>
 
