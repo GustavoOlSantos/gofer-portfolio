@@ -119,6 +119,17 @@ export const translations = {
 
       listaProjetos: [
         {
+            titulo: "Sentry: Análise de Vulnerabilidades e Compliance (TCC)",
+            descricao: "Aplicação web Fullstack para análise de vulnerabilidades em uma infraestrutura. Permite a gestão de achados e correções, utilizando Nmap e processamento assíncrono.",
+            image: Sentry,
+            repo: "https://github.com/GustavoOlSantos/sentry",
+            acesse: "",
+            destaque: true,
+            producao: false,
+            desenvolvimento: false,
+            stack: [Java, SpringBoot, RabbitMQ, ReactIcon, JavaScript, MySQL, Docker, Cypress]
+        },
+        {
             titulo: "SkillUp: Plataforma de Cursos",
             descricao: "Plataforma EAD full stack com autenticação JWT, persistência híbrida,logs estruturados, pipeline e arquitetura escalável.",
             image: SkillUp,
@@ -128,18 +139,7 @@ export const translations = {
             desenvolvimento: false,
             producao: false,
             stack: [ReactIcon, SpringBoot, JavaScript, MySQL, MongoDB, Cypress, Docker, GitHubActions]
-        },
-        {
-            titulo: "Sentry: Análise de Vulnerabilidades e Compliance (TCC)",
-            descricao: "Aplicação web Fullstack para análise de vulnerabilidades em uma infraestrutura. Permite a gestão de achados e correções, utilizando Nmap e processamento assíncrono.",
-            image: Sentry,
-            repo: "https://github.com/GustavoOlSantos/sentry",
-            acesse: "",
-            destaque: false,
-            producao: false,
-            desenvolvimento: true,
-            stack: [ReactIcon, SpringBoot, RabbitMQ, JavaScript, Docker]
-        },
+        },        
         {
             titulo: "ClinicaVet: Gestão de Clínica Veterinária",
             descricao: "Aplicação desktop para registro de clientes e pets de uma clínica veterinária, utilizando padrão MVC, JavaFX e arquitetura Database Agnostic.",
@@ -312,7 +312,18 @@ export const translations = {
       titulo: "Projects",
       subtitulo: "Some of the projects I've developed",
 
-      listaProjetos: [
+      listaProjetos: [        
+        {
+            titulo: "Sentry: Vulnerability Analysis and Compliance (Bachelor's Thesis)",
+            descricao: "Fullstack web application for infrastructure vulnerability analysis. Enables management of findings and remediation, utilizing Nmap and asynchronous processing.",
+            image: Sentry,
+            repo: "https://github.com/GustavoOlSantos/sentry",
+            acesse: "",
+            destaque: true,
+            producao: false,
+            desenvolvimento: false,
+            stack: [Java, SpringBoot, RabbitMQ, ReactIcon, JavaScript, MySQL, Docker, Cypress]
+        },
         {
             titulo: "SkillUp: Course Platform",
             descricao: "Full stack e-learning platform with JWT authentication, hybrid persistence, structured logging, CI/CD pipeline and scalable architecture.",
@@ -322,17 +333,6 @@ export const translations = {
             destaque: true,
             producao: false,
             stack: [ReactIcon, SpringBoot, JavaScript, MySQL, MongoDB, Cypress, Docker, GitHubActions]
-        },
-        {
-            titulo: "Sentry: Vulnerability Analysis and Compliance (Bachelor's Thesis)",
-            descricao: "Fullstack web application for infrastructure vulnerability analysis. Enables management of findings and remediation, utilizing Nmap and asynchronous processing.",
-            image: Sentry,
-            repo: "https://github.com/GustavoOlSantos/sentry",
-            acesse: "",
-            destaque: false,
-            producao: false,
-            desenvolvimento: true,
-            stack: [ReactIcon, SpringBoot, RabbitMQ, JavaScript, Docker]
         },
         {
             titulo: "ClinicaVet: Veterinary Clinic Management",
