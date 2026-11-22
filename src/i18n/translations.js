@@ -30,10 +30,10 @@ export const translations = {
   pt: {
     hero: {
       titulo: {
-        cargo: "Desenvolvedor Full Stack Júnior",
+        cargo: "Desenvolvedor Full Stack Java Júnior",
         apresentacao: "Meu nome é"
       },
-      subtitulo: "Especializado em Java, Spring Boot e React, com experiência em desenvolvimento de aplicações corporativas, automação de processos e testes automatizados.",
+      subtitulo: "Desenvolvedor com foco em backend Java, experiência no desenvolvimento e manutenção de aplicações corporativas, APIs REST, integração de sistemas e automação de processos. Atuação com Spring Boot, React e práticas de qualidade de software.",
       experiencia: "Experiência em empresas como:",
       actions: {
         curriculo: "Baixar Currículo",
@@ -46,22 +46,22 @@ export const translations = {
     sobre: {
       titulo: "Sobre mim",
       subtitulo: "Um pouco sobre a minha trajetória",
-      paragrafoBold: "Sou Gustavo Santos, Desenvolvedor Full Stack com foco em back-end Java/Spring, atuando com Spring Boot, Spring Security, JPA/Hibernate e APIs REST, além de experiência em front-end com React.",
-      paragrafo1: "Atualmente atuo como estagiário em desenvolvimento de sistemas no BNDES, enquanto concluo meu curso de Ciência da Computação na Universidade Veiga de Almeida (UVA), utilizando, evoluindo, mantendo e desenvolvendo sistemas e portais institucionais utilizando Java, Bancos de Dados SQL, Gerenciadores de conteúdo (CMS) e integrando APIs REST.",
-      paragrafo2: "Na minha atuação, também trabalhei com desenvolvimento de sistemas web, APIs REST, testes automatizados em Cypress, integração de sistemas e microcontroladores, automação de processos e tratamento de vulnerabilidades, aplicando boas práticas de desenvolvimento, arquitetura e qualidade de software.",
+      paragrafoBold: "Sou Gustavo Santos, Desenvolvedor Full Stack com foco em backend Java, trabalhando com Spring Boot, Spring Security, JPA/Hibernate e APIs REST, além de experiência no desenvolvimento de interfaces com React.",
+      paragrafo1: "Atualmente, atuo no desenvolvimento e manutenção de sistemas no BNDES, enquanto concluo minha graduação em Ciência da Computação na Universidade Veiga de Almeida (UVA). Trabalho com aplicações corporativas, portais institucionais, bancos de dados relacionais, CMS e integrações entre sistemas.",
+      paragrafo2: "Ao longo da minha trajetória, também trabalhei com desenvolvimento web, automação de processos, testes automatizados com Cypress, integração de sistemas e microcontroladores. Busco aplicar boas práticas de desenvolvimento, organização de código e qualidade de software nas soluções que construo.",
       destaques: {
         experiencia: "anos de experiência em desenvolvimento e manutenção de soluções web",
         modelo: {
-            titulo:"Modelo de atuação",
-            dado: "Remoto, Híbrido e Presencial"
+          titulo: "Modelo de atuação",
+          dado: "Remoto, Híbrido e Presencial"
         },
         metodos: {
-            titulo: "Métodos de desenvolvimento",
-            dado: "Scrum e Kanban"
+          titulo: "Métodos de desenvolvimento",
+          dado: "Scrum e Kanban"
         },
         foco: {
-            titulo: "Foco de Atuação",
-            dado: "Sistemas Web, CMS, APIs REST, Testes Automatizados e Integrações entre Sistemas."
+          titulo: "Foco de Atuação",
+          dado: "Sistemas Web, CMS, APIs REST, Testes Automatizados e Integrações entre Sistemas."
         }
       }
     },
@@ -72,39 +72,38 @@ export const translations = {
 
       experiencias: [
         {
-            empresa: "BNDES",
-            cargo: "Estagiário em Análise de Sistemas",
-            periodo: "Agosto 2025 - Presente",
-            icone: BNDES,
-            atividades: [
-              "Substituí um processo legado em Mainframe por uma solução digital integrada ao Portal Institucional, automatizando a publicação de repasses a estados e municípios, eliminando dependências legadas e garantindo conformidade com a Lei nº 9.452/1997.",
-              "Reduzi em 50% a indisponibilidade no processamento de +4,8 milhões de documentos, otimizando queries SQL na camada de banco de dados e no processo de indexação SOLR no Portal Institucional.",
-              "Conduzi estudo técnico sobre Dados Estruturados (Schema.org/JSON-LD) para o Blog do Desenvolvimento, definindo padrões alinhados ao Google para melhorar indexação e elegibilidade a Rich Results.",
-              "Implementei e validei o serviço de notificações push (GCM) da Agência de Notícias do BNDES, com análises de segurança, auditabilidade e logging, entregando uma solução monitorável e aderente a governança.",
-            ]
-          },
-          {
-            empresa: "SERPRO",
-            cargo: "Estagiário de Desenvolvimento",
-            periodo: "Setembro 2024 - Julho 2025",
-            icone: Serpro,
-            atividades: [
-              "Desenvolvi uma suíte completa de testes automatizados com Cypress para um sistema JSF, cobrindo todos os casos de uso, sucesso, falha e todo o ciclo de vida da entidade principal.",
-              "Integrei os testes à pipeline do GitLab, garantindo execução automática a cada commit e notificação imediata ao dev quando uma alteração quebrasse alguma funcionalidade existente.",
-              "Compartilhei conhecimento técnico com estagiários de outras equipes com a mesma missão de testes automatizados, sugerindo implementações e integrações.",
-            ]
-          },
-          {
-            empresa: "Riex Equips Contra Incêndio",
-            cargo: "Desenvolvimento e Automação interna | Auxiliar de manutenção predial",
-            periodo: "Novembro 2021 - Julho 2024",
-            icone: Riex,
-            atividades: [
-              "Desenvolvimento de sistemas internos web para gestão e controle de Ordens de serviço, Estoque, e processos de teste, conferência e relatórios de Extintores e Mangueiras de incêndio, utilizando PHP, MySQL, HTML, CSS e JavaScript.",
-              "Criação de endpoints para integração entre o sistema web e dispositivos baseados em Arduino, automatizando o acompanhamento de ordens de serviço da oficina.",
-              "Instalação, administração e manutenção de ambientes Linux, servidores web, FTP e infraestrutura relacionada às aplicações internas.",
-            ]
-          }
+          empresa: "BNDES",
+          cargo: "Estagiário em Análise de Sistemas",
+          periodo: "Julho 2025 - Presente",
+          icone: BNDES,
+          atividades: [
+            "Substituí um processo legado em Mainframe por uma solução digital integrada ao Portal Institucional, automatizando a publicação de repasses a estados e municípios e garantindo conformidade com a Lei nº 9.452/1997.",
+            "Contribuí para reduzir em 50% a indisponibilidade no processamento de mais de 4,8 milhões de documentos, por meio da otimização de consultas SQL e do processo de indexação Solr.",
+            "Conduzi estudo técnico sobre Dados Estruturados (Schema.org/JSON-LD) para o Blog do Desenvolvimento, definindo padrões alinhados às diretrizes do Google para melhorar a indexação e a elegibilidade a Rich Results.",
+            "Implementei e validei o serviço de notificações push (GCM) da Agência de Notícias do BNDES, com análises de segurança, auditabilidade e logging."
+          ]
+        },
+        {
+          empresa: "SERPRO",
+          cargo: "Estagiário de Desenvolvimento",
+          periodo: "Setembro 2024 - Julho 2025",
+          icone: Serpro,
+          atividades: [
+            "Participei do desenvolvimento, refatoração, manutenção e depuração de aplicações Java/Spring Boot e sistemas legados em JSF.",
+            "Desenvolvi uma suíte de testes automatizados com Cypress, cobrindo cenários de sucesso, falha e o ciclo de vida das principais funcionalidades do sistema.",
+            "Integrei os testes à pipeline do GitLab, garantindo execução automática a cada commit e notificações sobre regressões. Também compartilhei conhecimento técnico e sugestões de implementação com outras equipes."
+          ]
+        },
+        {
+          empresa: "Riex Equips Contra Incêndio",
+          cargo: "Desenvolvimento e Automação Interna | Auxiliar de Manutenção Predial",
+          periodo: "Novembro 2021 - Agosto 2024",
+          icone: Riex,
+          atividades: [
+            "Desenvolvi sistemas web internos para gestão de ordens de serviço, estoque e processos de inspeção e relatórios, utilizando PHP, MySQL, HTML, CSS e JavaScript.",
+            "Implementei endpoints para integração entre sistemas web e dispositivos Arduino, além de administrar ambientes Linux, servidores web, FTP e infraestrutura das aplicações."
+          ]
+        }
       ],
     },
 
@@ -119,29 +118,29 @@ export const translations = {
 
       listaProjetos: [
         {
-            titulo: "Sentry: Análise de Vulnerabilidades e Compliance (TCC)",
-            descricao: "Aplicação web Fullstack para análise de vulnerabilidades em uma infraestrutura. Permite a gestão de achados e correções, utilizando Nmap e processamento assíncrono.",
-            image: Sentry,
-            repo: "https://github.com/GustavoOlSantos/sentry",
-            acesse: "",
-            destaque: true,
-            producao: false,
-            desenvolvimento: false,
-            stack: [Java, SpringBoot, RabbitMQ, ReactIcon, JavaScript, MySQL, Docker, Cypress]
+          titulo: "Sentry: Gestão de Vulnerabilidades e Segurança",
+          descricao: "Plataforma full stack para descoberta de ativos e serviços de rede, identificação de vulnerabilidades com base na NVD/CVE e avaliação automatizada de configurações de segurança em ambientes autorizados.",
+          image: Sentry,
+          repo: "https://github.com/GustavoOlSantos/sentry",
+          acesse: "",
+          destaque: true,
+          producao: false,
+          desenvolvimento: false,
+          stack: [Java, SpringBoot, RabbitMQ, ReactIcon, JavaScript, MySQL, Docker, Cypress]
         },
         {
-            titulo: "SkillUp: Plataforma de Cursos",
-            descricao: "Plataforma EAD full stack com autenticação JWT, persistência híbrida,logs estruturados, pipeline e arquitetura escalável.",
-            image: SkillUp,
-            repo: "https://github.com/GustavoOlSantos/skill-up",
-            acesse: "https://skillup.gustavoolsantos.dev.br/",
-            destaque: true,
-            desenvolvimento: false,
-            producao: false,
-            stack: [ReactIcon, SpringBoot, JavaScript, MySQL, MongoDB, Cypress, Docker, GitHubActions]
-        },        
+          titulo: "SkillUp: Plataforma de Cursos Online",
+          descricao: "Plataforma EAD full stack com autenticação JWT, gerenciamento de cursos e avaliações, persistência com MySQL e MongoDB, logging estruturado e pipeline CI/CD com testes automatizados.",
+          image: SkillUp,
+          repo: "https://github.com/GustavoOlSantos/skill-up",
+          acesse: "https://skillup.gustavoolsantos.dev.br/",
+          destaque: true,
+          desenvolvimento: false,
+          producao: false,
+          stack: [ReactIcon, SpringBoot, JavaScript, MySQL, MongoDB, Cypress, Docker, GitHubActions]
+        },
         {
-            titulo: "ClinicaVet: Gestão de Clínica Veterinária",
+            titulo: "ClinicaVet: Sistema de Gestão Veterinária",
             descricao: "Aplicação desktop para registro de clientes e pets de uma clínica veterinária, utilizando padrão MVC, JavaFX e arquitetura Database Agnostic.",
             image: ClinicaVet,
             repo: "https://github.com/GustavoOlSantos/ClinicaVet",
@@ -159,7 +158,7 @@ export const translations = {
             acesse: "https://llgsacoles.gustavoolsantos.dev.br",
             destaque: false,
             producao: false,
-            stack: [PHP, MySQL, CSS3, , Bootstrap, JavaScript, Cypress, Docker, GitHubActions]
+            stack: [PHP, MySQL, CSS3, Bootstrap, JavaScript, Cypress, Docker, GitHubActions]
         },
         // {
         //     titulo: "Socket Criptografados: Compartilhamento de Arquivos",
@@ -225,11 +224,11 @@ export const translations = {
  en: {
     hero: {
       titulo: {
-        cargo: "Junior Full Stack Developer",
+        cargo: "Junior Full Stack Java Developer",
         apresentacao: "My name is"
       },
-      subtitulo: "Specialized in Java, Spring Boot and React, with experience in developing corporate applications, process automation and automated testing.",
-      experiencia: "Experience in companies such as:",
+      subtitulo: "Backend-focused developer with experience in corporate applications, REST APIs, system integration and process automation. Working with Java, Spring Boot, React and software quality practices.",
+      experiencia: "Experience at companies such as:",
       actions: {
         curriculo: "Download Resume",
         curriculo_url: "https://res.cloudinary.com/dvzuxbm5h/image/upload/v1786496209/Gustavo_O_F_dos_Santos_-_en_y47g7f.pdf",
@@ -241,9 +240,9 @@ export const translations = {
     sobre: {
       titulo: "About me",
       subtitulo: "A bit about my journey",
-      paragrafoBold: "I am Gustavo Santos, a Full Stack Developer with a focus on back-end Java/Spring, working with Spring Boot, Spring Security, JPA/Hibernate and REST APIs, as well as experience in front-end with React.",
-      paragrafo1: "Currently, I work as an intern in system development at BNDES, while completing my Computer Science degree at Universidade Veiga de Almeida (UVA), using, evolving, maintaining and developing institutional systems and portals with Java, SQL Databases, Content Management Systems (CMS) and REST API integrations.",
-      paragrafo2: "In my career, I have also worked with web system development, REST APIs, automated testing with Cypress, system and microcontroller integration, process automation and vulnerability handling, applying good development practices, architecture and software quality.",
+      paragrafoBold: "I am Gustavo Santos, a Full Stack Developer focused on Java backend development, working with Spring Boot, Spring Security, JPA/Hibernate and REST APIs, as well as frontend development with React.",
+      paragrafo1: "I currently work with systems development and maintenance at BNDES while completing my Computer Science degree at Universidade Veiga de Almeida (UVA). My work involves corporate applications, institutional portals, relational databases, CMS platforms and system integrations.",
+      paragrafo2: "Throughout my career, I have also worked with web development, process automation, Cypress automated testing, system integration and microcontrollers. I focus on applying software development best practices, code organization and quality assurance.",
       destaques: {
         experiencia: "years of experience developing and maintaining web solutions",
         modelo: {
@@ -267,39 +266,38 @@ export const translations = {
 
       experiencias: [
         {
-            empresa: "BNDES",
-            cargo: "Systems Analysis Intern",
-            periodo: "August 2025 - Present",
-            icone: BNDES,
-            atividades: [
-              "Replaced a legacy Mainframe process with a digital solution integrated into the Institutional Portal, automating the publication of transfers to states and municipalities, eliminating legacy dependencies and ensuring compliance with Law No. 9.452/1997.",
-              "Reduced downtime by 50% when processing over 4.8 million documents, by optimizing SQL queries at the database layer and the SOLR indexing process on the Institutional Portal.",
-              "Conducted a technical study on Structured Data (Schema.org/JSON-LD) for the Development Blog, defining standards aligned with Google guidelines to improve indexing and eligibility for Rich Results.",
-              "Implemented and validated the push notification service (GCM) for the BNDES News Agency, with security, auditability and logging analysis, delivering a monitorable solution compliant with governance requirements.",
-            ]
-          },
-          {
-            empresa: "SERPRO",
-            cargo: "Development Intern",
-            periodo: "September 2024 - July 2025",
-            icone: Serpro,
-            atividades: [
-                "Developed a complete automated test suite with Cypress for a JSF system, covering all use cases: success, failure, and the full lifecycle of the main entity.",
-                "Integrated the tests into the GitLab pipeline, ensuring automatic execution on every commit and immediate developer notification when a change broke existing functionality.",
-                "Shared technical knowledge with interns from other teams working on the same automated testing mission, suggesting implementations and integrations.",
-            ]
-         },
+          empresa: "BNDES",
+          cargo: "Systems Analysis Intern",
+          periodo: "July 2025 - Present",
+          icone: BNDES,
+          atividades: [
+            "Replaced a legacy Mainframe process with a digital solution integrated into the Institutional Portal, automating the publication of transfers to states and municipalities while ensuring compliance with Law No. 9.452/1997.",
+            "Contributed to a 50% reduction in downtime when processing over 4.8 million documents through SQL query optimization and improvements to the Solr indexing process.",
+            "Conducted a technical study on Structured Data (Schema.org/JSON-LD) for the Development Blog, defining standards aligned with Google guidelines to improve indexing and eligibility for Rich Results.",
+            "Implemented and validated the push notification service (GCM) for the BNDES News Agency, including security, auditability and logging analysis."
+          ]
+        },
         {
-            empresa: "Riex Equips Contra Incêndio",
-            cargo: "Internal Development and Automation | Building Maintenance Assistant",
-            periodo: "November 2021 - July 2024",
-            icone: Riex,
-            atividades: [
-              "Developed internal web systems for managing Service Orders, Inventory, and testing, inspection and reporting processes for fire extinguishers and fire hoses, using PHP, MySQL, HTML, CSS and JavaScript.",
-              "Built endpoints to integrate the web system with Arduino-based devices, automating service order tracking in the workshop.",
-              "Installed, administered and maintained Linux environments, web servers, FTP and infrastructure supporting internal applications.",
-            ]
-          }
+          empresa: "SERPRO",
+          cargo: "Development Intern",
+          periodo: "September 2024 - July 2025",
+          icone: Serpro,
+          atividades: [
+            "Participated in the development, refactoring, maintenance and debugging of Java/Spring Boot applications and legacy JSF systems.",
+            "Developed an automated Cypress test suite covering success and failure scenarios, as well as the lifecycle of the system's main functionalities.",
+            "Integrated automated tests into the GitLab pipeline, ensuring execution on every commit and notifications about regressions. Also shared technical knowledge and implementation suggestions with other teams."
+          ]
+        },
+        {
+          empresa: "Riex Equips Contra Incêndio",
+          cargo: "Internal Development and Automation | Building Maintenance Assistant",
+          periodo: "November 2021 - August 2024",
+          icone: Riex,
+          atividades: [
+            "Developed internal web systems for managing service orders, inventory, inspections and reporting processes using PHP, MySQL, HTML, CSS and JavaScript.",
+            "Built endpoints to integrate web systems with Arduino-based devices, while also maintaining Linux environments, web servers, FTP and application infrastructure."
+          ]
+        }
       ],
     },
 
@@ -314,28 +312,29 @@ export const translations = {
 
       listaProjetos: [        
         {
-            titulo: "Sentry: Vulnerability Analysis and Compliance (Bachelor's Thesis)",
-            descricao: "Fullstack web application for infrastructure vulnerability analysis. Enables management of findings and remediation, utilizing Nmap and asynchronous processing.",
-            image: Sentry,
-            repo: "https://github.com/GustavoOlSantos/sentry",
-            acesse: "",
-            destaque: true,
-            producao: false,
-            desenvolvimento: false,
-            stack: [Java, SpringBoot, RabbitMQ, ReactIcon, JavaScript, MySQL, Docker, Cypress]
+          titulo: "Sentry: Vulnerability and Security Management",
+          descricao: "Full stack platform for discovering network assets and services, identifying vulnerabilities based on NVD/CVE data and automatically assessing security configurations in authorized environments.",
+          image: Sentry,
+          repo: "https://github.com/GustavoOlSantos/sentry",
+          acesse: "",
+          destaque: true,
+          producao: false,
+          desenvolvimento: false,
+          stack: [Java, SpringBoot, RabbitMQ, ReactIcon, JavaScript, MySQL, Docker, Cypress]
         },
         {
-            titulo: "SkillUp: Course Platform",
-            descricao: "Full stack e-learning platform with JWT authentication, hybrid persistence, structured logging, CI/CD pipeline and scalable architecture.",
-            image: SkillUp,
-            repo: "https://github.com/GustavoOlSantos/skill-up",
-            acesse: "https://skillup.gustavoolsantos.dev.br/",
-            destaque: true,
-            producao: false,
-            stack: [ReactIcon, SpringBoot, JavaScript, MySQL, MongoDB, Cypress, Docker, GitHubActions]
+          titulo: "SkillUp: Online Course Platform",
+          descricao: "Full stack e-learning platform with JWT authentication, course and review management, MySQL and MongoDB persistence, structured logging, CI/CD pipeline and automated testing.",
+          image: SkillUp,
+          repo: "https://github.com/GustavoOlSantos/skill-up",
+          acesse: "https://skillup.gustavoolsantos.dev.br/",
+          destaque: true,
+          producao: false,
+          desenvolvimento: false,
+          stack: [ReactIcon, SpringBoot, JavaScript, MySQL, MongoDB, Cypress, Docker, GitHubActions]
         },
         {
-            titulo: "ClinicaVet: Veterinary Clinic Management",
+            titulo: "ClinicaVet: Veterinary Clinic Management System",
             descricao: "Desktop application for registering veterinary clinic clients and pets, built with the MVC pattern, JavaFX and Database Agnostic architecture.",
             image: ClinicaVet,
             repo: "https://github.com/GustavoOlSantos/ClinicaVet",
@@ -352,7 +351,7 @@ export const translations = {
             acesse: "https://llgsacoles.gustavoolsantos.dev.br",
             destaque: false,
             producao: false,
-            stack: [PHP, MySQL, CSS3, , Bootstrap, JavaScript, Cypress, Docker, GitHubActions]
+            stack: [PHP, MySQL, CSS3, Bootstrap, JavaScript, Cypress, Docker, GitHubActions]
         },
         // {
         //     titulo: "Encrypted Sockets: File Sharing",

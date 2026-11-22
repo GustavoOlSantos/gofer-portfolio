@@ -290,6 +290,10 @@ h2{
     box-shadow: 0 4px 12px rgba(0,0,0,.25);
   }
 
+   &:has(> .featured-badge:not(.production):not(.development)) {
+    box-shadow: 0px 0px 18px 2px #047dffab
+  }
+
   .featured-badge.production {
     background-color: #0b2011e8;
     color: #3fb950;
